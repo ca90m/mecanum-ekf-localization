@@ -7,8 +7,8 @@ cuatro ruedas Mecanum simulado en CoppeliaSim y controlado con ROS 2:
 cinemática inversa y directa, odometría a partir de los encoders, seguimiento
 de trayectorias a lazo cerrado y localización con un EKF basado en landmarks.
 
-El informe completo, con las deducciones y todos los experimentos, está en
-[report/Informe_TP_Final_Robotica.pdf](report/Informe_TP_Final_Robotica.pdf).
+El informe completo, con las deducciones y todos los experimentos, está en el
+[reporte](report/Informe_TP_Final_Robotica.pdf).
 El código no está publicado porque se apoya en material provisto por la
 cátedra.
 
