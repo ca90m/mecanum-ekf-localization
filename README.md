@@ -13,7 +13,7 @@ También hay una [versión en inglés](report/TP_Final_Robotica_EN.pdf).
 El código no está publicado porque se apoya en material provisto por la
 cátedra.
 
-![Seguimiento de un cuadrado de 4 m con realimentación por odometría y por EKF](tracking_comparison_es.png)
+![Seguimiento de un cuadrado de 4 m con realimentación por odometría y por EKF](figures/tracking_comparison_es.png)
 
 *Seguimiento de un cuadrado de 4 m con los mismos parámetros del controlador.
 Negro: trayectoria deseada. Azul: realimentación con odometría. Naranja:
