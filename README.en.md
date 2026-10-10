@@ -12,14 +12,14 @@ The full report, with the derivations and all experiments, is in
 version is [TP_Final_Robótica.pdf](TP_Final_Rob%C3%B3tica.pdf). The code is not published because it builds on material
 provided by the course.
 
-![Path following on a 4 m square with odometry and with EKF feedback](tracking_comparison_en.png)
+![Path following on a 4 m square with odometry and with EKF feedback](figures/tracking_comparison_en.png)
 
 *Path following on a 4 m square, same controller parameters. Black: desired
 path. Blue: odometry feedback. Orange: EKF feedback.*
 
 ## System
 
-![ROS 2 nodes and topics](ros2_nodes_en.png)
+![ROS 2 nodes and topics](figures/ros2_nodes_en.png)
 
 - **Kinematics and odometry:** converts velocity commands into wheel speeds,
   reconstructs the chassis velocity from the encoders and integrates it into
