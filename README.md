@@ -7,12 +7,13 @@ cuatro ruedas Mecanum simulado en CoppeliaSim y controlado con ROS 2:
 cinemática inversa y directa, odometría a partir de los encoders, seguimiento
 de trayectorias a lazo cerrado y localización con un EKF basado en landmarks.
 
-El informe completo, con las deducciones y todos los experimentos, está en el
-[reporte](report/TP_Final_Robótica.pdf).
+El informe completo, con las deducciones y todos los experimentos, está en
+[TP_Final_Robótica.pdf](TP_Final_Rob%C3%B3tica.pdf).
+También hay una [versión en inglés](TP_Final_Robotica_EN.pdf).
 El código no está publicado porque se apoya en material provisto por la
 cátedra.
 
-![Seguimiento de un cuadrado de 4 m con realimentación por odometría y por EKF](figures/tracking_comparison_es.png)
+![Seguimiento de un cuadrado de 4 m con realimentación por odometría y por EKF](tracking_comparison_es.png)
 
 *Seguimiento de un cuadrado de 4 m con los mismos parámetros del controlador.
 Negro: trayectoria deseada. Azul: realimentación con odometría. Naranja:
@@ -20,7 +21,7 @@ realimentación con el EKF.*
 
 ## Sistema
 
-![Nodos y tópicos de ROS 2](figures/ros2_nodes_es.png)
+![Nodos y tópicos de ROS 2](ros2_nodes_es.png)
 
 - **Cinemática y odometría:** convierte los comandos de velocidad en
   velocidades de rueda, reconstruye la velocidad del chasis a partir de los
@@ -42,7 +43,7 @@ realimentación con el EKF.*
 | Realimentación | Error medio | Error máximo | Error final | Tiempo |
 |---|---|---|---|---|
 | Odometría | 0.242 m | 0.573 m | 0.501 m | 67.90 s |
-| EKF | 0.033 m | 0.233 m | 0.009 m | 69.80 s |
+| EKF | 0.034 m | 0.236 m | 0.010 m | 69.65 s |
 
 Los errores son distancias entre la posición real del robot, tomada del ground
 truth del simulador, y la trayectoria deseada.
@@ -51,9 +52,9 @@ truth del simulador, y la trayectoria deseada.
 
 | Prueba | Odometría | EKF |
 |---|---|---|
-| Movimiento circular | 0.0193 m | 0.0065 m |
-| Cuadrado de 2 m (desplazamientos longitudinales y laterales) | 0.1174 m | 0.0027 m |
-| Rotación sobre el lugar | 0.0037 m | 0.0065 m |
+| Movimiento circular | 0.0193 m | 0.0061 m |
+| Cuadrado de 2 m (desplazamientos longitudinales y laterales) | 0.1174 m | 0.0023 m |
+| Rotación sobre el lugar | 0.0037 m | 0.0058 m |
 
 El EKF redujo el error de orientación en las tres pruebas y el error de
 posición en dos de ellas. Durante la rotación sobre el lugar, la odometría
