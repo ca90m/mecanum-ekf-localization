@@ -21,7 +21,7 @@ realimentación con el EKF.*
 
 ## Sistema
 
-![Nodos y tópicos de ROS 2](ros2_nodes_es.png)
+![Nodos y tópicos de ROS 2](figures/ros2_nodes_es.png)
 
 - **Cinemática y odometría:** convierte los comandos de velocidad en
   velocidades de rueda, reconstruye la velocidad del chasis a partir de los
