@@ -8,8 +8,8 @@ cinemática inversa y directa, odometría a partir de los encoders, seguimiento
 de trayectorias a lazo cerrado y localización con un EKF basado en landmarks.
 
 El informe completo, con las deducciones y todos los experimentos, está en
-[TP_Final_Robótica.pdf](TP_Final_Rob%C3%B3tica.pdf).
-También hay una [versión en inglés](TP_Final_Robotica_EN.pdf).
+[TP_Final_Robótica.pdf](report/TP_Final_Rob%C3%B3tica.pdf).
+También hay una [versión en inglés](report/TP_Final_Robotica_EN.pdf).
 El código no está publicado porque se apoya en material provisto por la
 cátedra.
 
