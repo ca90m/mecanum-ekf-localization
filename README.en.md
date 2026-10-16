@@ -8,7 +8,7 @@ controlled with ROS 2, covering inverse and forward kinematics, encoder-based
 odometry, closed-loop path following and EKF localization with landmarks.
 
 The full report, with the derivations and all experiments, is in
-[TP_Final_Robotica_EN.pdf](TP_Final_Robotica_EN.pdf). The original Spanish
+[TP_Final_Robotica_EN.pdf](report/TP_Final_Robotica_EN.pdf). The original Spanish
 version is [TP_Final_Robótica.pdf](TP_Final_Rob%C3%B3tica.pdf). The code is not published because it builds on material
 provided by the course.
 
